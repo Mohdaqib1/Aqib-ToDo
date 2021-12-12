@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Aqib-ToDo/static/css/main.b3d3e74a.chunk.css",
+    "main.js": "/Aqib-ToDo/static/js/main.6b61b7e7.chunk.js",
+    "main.js.map": "/Aqib-ToDo/static/js/main.6b61b7e7.chunk.js.map",
+    "runtime-main.js": "/Aqib-ToDo/static/js/runtime-main.471e5770.js",
+    "runtime-main.js.map": "/Aqib-ToDo/static/js/runtime-main.471e5770.js.map",
+    "static/js/2.754fd8e1.chunk.js": "/Aqib-ToDo/static/js/2.754fd8e1.chunk.js",
+    "static/js/2.754fd8e1.chunk.js.map": "/Aqib-ToDo/static/js/2.754fd8e1.chunk.js.map",
+    "static/js/3.cee54889.chunk.js": "/Aqib-ToDo/static/js/3.cee54889.chunk.js",
+    "static/js/3.cee54889.chunk.js.map": "/Aqib-ToDo/static/js/3.cee54889.chunk.js.map",
+    "index.html": "/Aqib-ToDo/index.html",
+    "static/css/main.b3d3e74a.chunk.css.map": "/Aqib-ToDo/static/css/main.b3d3e74a.chunk.css.map",
+    "static/js/2.754fd8e1.chunk.js.LICENSE.txt": "/Aqib-ToDo/static/js/2.754fd8e1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.471e5770.js",
+    "static/js/2.754fd8e1.chunk.js",
+    "static/css/main.b3d3e74a.chunk.css",
+    "static/js/main.6b61b7e7.chunk.js"
+  ]
+}
