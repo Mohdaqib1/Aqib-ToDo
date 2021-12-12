@@ -1,25 +1,71 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+import FirstComponents from './Components/FirstComponents';
+
+
+import { BrowserRouter as Router, Switch , Route , Link} from "react-router-dom";
+ 
+export default function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+
+
+
+
+
+
+    <Router>
+      <div>
+      <header>
+        <h1 className="he">Wellcome Todo</h1>
+       
+        <Link to="/" > <h4 className="he1">--Go First Page</h4>   <p/></Link>
+     </header>
+     
+
+
+
+
+
+
+
+
+
+
+
+        <Switch>
+          <Route path="/secondcomponents" component>
+            <FirstComponents   />
+          </Route>
+         
+          <Route path="/">
+            <Home  />          
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
-export default App;
+
+
+
+
+
+function Home() {
+  return(
+    <div>
+     <div className="da">
+         <h2 >
+             Add Item
+         </h2><p/>
+         <Link to="/secondcomponents" ><button className="bu">click</button>   <p/></Link>
+           
+        
+    </div>
+    </div>
+);
+}
+
+
